@@ -1,1 +1,8 @@
-webpack: npx webpack
+develop:
+	npx webpack serve
+
+install:
+	npm ci
+
+build:
+	npm run build

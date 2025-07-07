@@ -5,10 +5,10 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "NODE_ENV=production npx webpack"
   },
   "keywords": [],
-  "author": "",
+  "author": "Vyacheslav Ryabov",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^7.1.2",
